@@ -37,7 +37,7 @@ def create_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument("text", help="Text to search for within dotm file")
     parser.add_argument(
-        "-d", "--dir", help="The directory to serach within", default='.')
+        "-d", "--dir", help="The directory to search within", default='.')
     return parser
 
 
